@@ -93,9 +93,16 @@
 </Item>
 <!-- Словари -->
 
+<!-- Visual Studio Code -->
+<Item itemName="● Visual Studio Code" typeMenu="subMenu" icon="icon.dll:7">
+	<Item itemName="dotnet run" typeMenu="item" action_snippet="Visual Studio Code\dotnet run.txt" icon="icon.dll:7" />
+	<Item itemName="taskkill" typeMenu="item" action_snippet="Visual Studio Code\taskkill.txt" icon="icon.dll:7" />
+</Item>
+<!-- Visual Studio Code -->
+
 <Item itemName="Orange Tree Samples - Evolution" typeMenu="item" action_snippet="Orange Tree Samples - Evolution.txt" icon="icon.dll:7" />
 <Item itemName="Фильмы от ИИ" typeMenu="item" action_snippet="Фильмы от ИИ.txt" icon="icon.dll:7" />
-<Item itemName="dotnet run" typeMenu="item" action_snippet="dotnet run.txt" icon="icon.dll:7" />
+
 
 
 <!-- Настройки -->
@@ -132,9 +139,28 @@
 	</Item>
 	<!-- Windows -->
 	
+	<!-- Размер шрифта -->
+	<Item itemName="● Размер шрифта" typeMenu="subMenu" icon="icon.dll:1">
+		<Item itemName="Размер шрифта 8" typeMenu="item" action_font_size="8" icon="icon.dll:6" />
+		<Item itemName="Размер шрифта 9" typeMenu="item" action_font_size="9" icon="icon.dll:6" />
+		<Item itemName="Размер шрифта 10" typeMenu="item" action_font_size="10" icon="icon.dll:6" />
+		<Item itemName="Размер шрифта 11" typeMenu="item" action_font_size="11" icon="icon.dll:6" />
+		<Item itemName="Размер шрифта 12" typeMenu="item" action_font_size="12" icon="icon.dll:6" />
+		<Item itemName="Размер шрифта 13" typeMenu="item" action_font_size="13" icon="icon.dll:6" />
+		<Item itemName="Размер шрифта 14" typeMenu="item" action_font_size="14" icon="icon.dll:6" />
+		<Item itemName="Размер шрифта 15" typeMenu="item" action_font_size="15" icon="icon.dll:6" />
+		<Item itemName="Размер шрифта 16" typeMenu="item" action_font_size="16" icon="icon.dll:6" />
+		<Item itemName="Размер шрифта 17" typeMenu="item" action_font_size="17" icon="icon.dll:6" />
+		<Item itemName="Размер шрифта 18" typeMenu="item" action_font_size="18" icon="icon.dll:6" />
+	</Item>
+	<!-- Размер шрифта -->
+	
 	<Item itemName="" typeMenu="separator" />
 	<Item itemName="Горячие клавиши" typeMenu="item" action_settings_ahk="ChangeHotkeyGui" icon="icon.dll:5" />
 	<Item itemName="Показать/скрыть иконку из трея" typeMenu="item" action_settings_ahk="IconShow" icon="icon.dll:6" />
+	<Item itemName="Очистить кэщ" typeMenu="item" action_settings_ahk="DeleteJson" icon="icon.dll:6" />
+	<Item itemName="Закрыть программу" typeMenu="item" action_settings_ahk="CloseProgram" icon="icon.dll:6" />
+	<Item itemName="Перезапустить программу" typeMenu="item" action_settings_ahk="RebootProgram" icon="icon.dll:6" />
 </Item>
 <!-- Настройки -->
 	
