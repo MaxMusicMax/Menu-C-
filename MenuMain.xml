@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menuPopup>
+
+<Item itemName="Тест" typeMenu="item" action_name_menu="" icon="icon.dll:7" />
+<Item itemName="" typeMenu="separator" />
+
+<!-- Словари -->
+<Item itemName="● Словари" typeMenu="subMenu" icon="icon.dll:7">
+	<Item itemName="Мои координаты" typeMenu="item" action_snippet="Клиенты\Мои координаты.txt" icon="icon.dll:7" />
+	<Item itemName="—" typeMenu="item" action_snippet="—" icon="icon.dll:7" />
+	<Item itemName="Что такое ReaScript Скрипт для Reaper на Lua" typeMenu="item" action_snippet="Что такое ReaScript Скрипт для Reaper на Lua" icon="icon.dll:7" />
+</Item>
+<!-- Словари -->
+
+<!-- Программы -->
+<Item itemName="● Программы" typeMenu="subMenu" icon="icon.dll:3">
+	<Item itemName="Restorator" typeMenu="item" action_open_folder="G:\Total Commander\data\Plugins\exe\Restorator\Restorator 2007\data\Restorator.exe" icon=""/>
+	<Item itemName="" typeMenu="separator" />
+	<Item itemName="EmEditor 26.1.0" typeMenu="item" action_open_folder="G:\Total Commander\data\Plugins\exe\EmEditor\EmEditor 26.1.0\EmEditor.exe" icon=""/>
+</Item>
+<!-- Программы -->
+
+<!-- Папки -->
+<Item itemName="● Папки" typeMenu="subMenu" icon="icon.dll:3">
+
+	<Item itemName="148 GB (F:)" typeMenu="subMenu" icon="icon.dll:4">
+		<Item itemName="148 GB (F:)" typeMenu="item" action_open_folder="F:\" icon="icon.dll:4"/>
+		<Item itemName="" typeMenu="separator" />
+		<Item itemName="КНИГИ (FB2)" typeMenu="item" action_open_folder="F:\КНИГИ (FB2)" icon="icon.dll:3"/>
+	</Item>
+	
+	<Item itemName="450-b (H:)" typeMenu="subMenu" icon="icon.dll:4">
+		<Item itemName="450-b (H:)" typeMenu="item" action_open_folder="H:\" icon="icon.dll:4"/>
+		<Item itemName="" typeMenu="separator" />
+		<Item itemName="VST portable" typeMenu="item" action_open_folder="H:\VST portable" icon="icon.dll:3"/>
+	</Item>
+	
+</Item>
+<!-- Папки -->
+
+<!-- Настройки -->
+<Item itemName="" typeMenu="separator" />
+<Item itemName="● Настройки" typeMenu="subMenu" icon="icon.dll:1">
+	
+	<!-- Выбрать меню -->
+	<Item itemName="● Выбрать меню" typeMenu="subMenu" icon="icon.dll:1">
+		<Item itemName="Главное Меню" typeMenu="item" action_script_switch="MenuMain.xml" icon="icon.dll:2" />
+		<Item itemName="Сниппеты" typeMenu="item" action_script_switch="MenuSnippets.xml" icon="icon.dll:2" />
+	</Item>
+	<!-- Выбрать меню -->
+	
+	<!-- Редактировать меню -->
+	<Item itemName="● Редактировать меню" typeMenu="subMenu" icon="icon.dll:1">
+		<Item itemName="Главное Меню (XML)" typeMenu="item" action_folder_script="MenuMain.xml" icon="icon.dll:2" />
+		<Item itemName="Папка меню" typeMenu="item" action_folder_script="\" icon="icon.dll:3" />
+		<Item itemName="snippets" typeMenu="item" action_folder_script="snippets" icon="icon.dll:3" />
+	</Item>
+	<!-- Редактировать меню -->
+	
+	<!-- Windows -->
+	<Item itemName="● Windows" typeMenu="subMenu" icon="icon.dll:1">
+		<Item itemName="Мой компьютер" typeMenu="item" action_open_folder="%windir%\explorer.exe Shell:::{20D04FE0-3AEA-1069-A2D8-08002B30309D}" icon="icon.dll:1"/>
+		<Item itemName="Все задачи" typeMenu="item" action_open_folder="%windir%\explorer.exe shell:::{ED7BA470-8E54-465E-825C-99712043E01C}" icon="icon.dll:1"/>
+	</Item>
+	<!-- Windows -->
+	
+	<Item itemName="" typeMenu="separator" />
+	<Item itemName="Горячие клавиши" typeMenu="item" action_settings_ahk="ChangeHotkeyGui" icon="icon.dll:5" />
+	<Item itemName="Показать/скрыть иконку из трея" typeMenu="item" action_settings_ahk="IconShow" icon="icon.dll:6" />
+</Item>
+<!-- Настройки -->
+	
+</menuPopup>
