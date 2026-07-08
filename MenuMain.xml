@@ -1,22 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <menuPopup>
 
-<Item itemName="Тест" typeMenu="item" action_name_menu="" icon="icon.dll:7" />
-<Item itemName="" typeMenu="separator" />
+<Item itemName="Главное меню" typeMenu="item" action_name_menu="" icon="icon.dll:9" />
 
-<!-- Словари -->
-<Item itemName="● Словари" typeMenu="subMenu" icon="icon.dll:7">
-	<Item itemName="Мои координаты" typeMenu="item" action_snippet="Клиенты\Мои координаты.txt" icon="icon.dll:7" />
-	<Item itemName="—" typeMenu="item" action_snippet="—" icon="icon.dll:7" />
-	<Item itemName="Что такое ReaScript Скрипт для Reaper на Lua" typeMenu="item" action_snippet="Что такое ReaScript Скрипт для Reaper на Lua" icon="icon.dll:7" />
-</Item>
-<!-- Словари -->
+<Item itemName="" typeMenu="separator" />
 
 <!-- Программы -->
 <Item itemName="● Программы" typeMenu="subMenu" icon="icon.dll:3">
 	<Item itemName="Restorator" typeMenu="item" action_open_folder="G:\Total Commander\data\Plugins\exe\Restorator\Restorator 2007\data\Restorator.exe" icon=""/>
-	<Item itemName="" typeMenu="separator" />
+	<Item itemName="RegWorkshopPortable" typeMenu="item" action_open_folder="G:\Total Commander\data\Plugins\exe\registryEditor\Registry Workshop 5.0.1 Final + Portable\Portable\RegWorkshopPortable.exe" icon=""/>
 	<Item itemName="EmEditor 26.1.0" typeMenu="item" action_open_folder="G:\Total Commander\data\Plugins\exe\EmEditor\EmEditor 26.1.0\EmEditor.exe" icon=""/>
+	<Item itemName="EmEditor 22.5.2" typeMenu="item" action_open_folder="G:\Total Commander\data\Plugins\exe\EmEditor\EmEditor 22.5.2\EmEditor.exe" icon=""/>
+	<Item itemName="PhraseExpress" typeMenu="item" action_open_folder="G:\Total Commander\data\Plugins\exe\PhraseExpress\data\phraseexpress.exe" icon=""/>
+	<Item itemName="" typeMenu="separator" />
+	<Item itemName="Reaper 7.7.0" typeMenu="item" action_open_folder="G:\CRP7.70\data\reaper.exe" icon=""/>
+	<Item itemName="Reaper 7.6.0" typeMenu="item" action_open_folder="G:\CRP7\data\reaper.exe" icon=""/>
+	<Item itemName="Reaper 6.7.0" typeMenu="item" action_open_folder="G:\CRP\data\reaper 6.7.0.0.exe" icon=""/>
+	<Item itemName="" typeMenu="separator" />
+	<Item itemName="PotPlayer" typeMenu="item" action_open_folder="G:\Total Commander\data\Plugins\exe\Player\PotPlayer\data\PotPlayer64.exe" icon=""/>
 </Item>
 <!-- Программы -->
 
@@ -26,17 +27,85 @@
 	<Item itemName="148 GB (F:)" typeMenu="subMenu" icon="icon.dll:4">
 		<Item itemName="148 GB (F:)" typeMenu="item" action_open_folder="F:\" icon="icon.dll:4"/>
 		<Item itemName="" typeMenu="separator" />
+		<Item itemName="000 All For HTML\Скрипт\--- ALL ---\data" typeMenu="item" action_open_folder="F:\000 All For HTML\Скрипт\--- ALL ---\data" icon="icon.dll:3"/>
 		<Item itemName="КНИГИ (FB2)" typeMenu="item" action_open_folder="F:\КНИГИ (FB2)" icon="icon.dll:3"/>
+	</Item>
+	
+	<Item itemName="450-a (G:)" typeMenu="subMenu" icon="icon.dll:4">
+		<Item itemName="450-a (G:)" typeMenu="item" action_open_folder="G:\" icon="icon.dll:4"/>
+		<Item itemName="" typeMenu="separator" />
+		<Item itemName="Танцы" typeMenu="item" action_open_folder="G:\--- SystemFolder\Desktop\Танцы" icon="icon.dll:3"/>
+		<Item itemName="" typeMenu="separator" />
+		<Item itemName="CRP_DATA" typeMenu="item" action_open_folder="G:\CRP_DATA" icon="icon.dll:3"/>
+		<Item itemName="CRP_DATA\Ярлыки" typeMenu="item" action_open_folder="G:\CRP_DATA\--- Clicks\Ярлыки" icon="icon.dll:3"/>
+		<Item itemName="Reaper 7.7.0" typeMenu="item" action_open_folder="G:\CRP7.70\data" icon="icon.dll:3"/>
+		<Item itemName="Reaper 7.7.0" typeMenu="item" action_open_folder="G:\CRP7.70\data" icon="icon.dll:3"/>
+		<Item itemName="Reaper 7.6.0" typeMenu="item" action_open_folder="G:\CRP7\data" icon="icon.dll:3"/>
+		<Item itemName="Reaper 6.7.0" typeMenu="item" action_open_folder="G:\CRP\data" icon="icon.dll:3"/>
+		<Item itemName="" typeMenu="separator" />
+		<Item itemName="Total Commander\exe" typeMenu="item" action_open_folder="G:\Total Commander\data\Plugins\exe" icon="icon.dll:3"/>
+		<Item itemName="Total Commander\icon" typeMenu="item" action_open_folder="G:\Total Commander\data\userFolder\icon" icon="icon.dll:3"/>
 	</Item>
 	
 	<Item itemName="450-b (H:)" typeMenu="subMenu" icon="icon.dll:4">
 		<Item itemName="450-b (H:)" typeMenu="item" action_open_folder="H:\" icon="icon.dll:4"/>
 		<Item itemName="" typeMenu="separator" />
 		<Item itemName="VST portable" typeMenu="item" action_open_folder="H:\VST portable" icon="icon.dll:3"/>
+		<Item itemName="МузКомедия Спектакли" typeMenu="item" action_open_folder="H:\МузКомедия Спектакли" icon="icon.dll:3"/>
+		<Item itemName="Windows 10" typeMenu="item" action_open_folder="H:\Windows 10" icon="icon.dll:3"/>
 	</Item>
 	
 </Item>
 <!-- Папки -->
+
+<!-- Сниппеты -->
+<Item itemName="● Сниппеты" typeMenu="subMenu" icon="icon.dll:2">
+<Item itemName="● Клиенты" typeMenu="subMenu" icon="icon.dll:7">
+	<Item itemName="Мои координаты" typeMenu="item" action_snippet="Клиенты\Мои координаты.txt" icon="icon.dll:7" />
+	<Item itemName="Банк ВТБ" typeMenu="item" action_snippet="Клиенты\Банк ВТБ.txt" icon="icon.dll:7" />
+	<Item itemName="отправил музыку в телеграм" typeMenu="item" action_snippet="Клиенты\отправил музыку в телеграм.txt" icon="icon.dll:7" />
+	<Item itemName="Напишите тайминг" typeMenu="item" action_snippet="Клиенты\Напишите тайминг.txt" icon="icon.dll:7" />
+</Item>
+<!-- Сниппеты -->
+
+<!-- Символы -->
+<Item itemName="● Символы" typeMenu="subMenu" icon="icon.dll:7">
+	<Item itemName="—" typeMenu="item" action_snippet="—" icon="icon.dll:7" />
+	<Item itemName="–" typeMenu="item" action_snippet="–" icon="icon.dll:7" />
+	<Item itemName="●" typeMenu="item" action_snippet="●" icon="icon.dll:7" />
+	<Item itemName="«»" typeMenu="item" action_snippet="«»" icon="icon.dll:7" />
+</Item>
+<!-- Символы -->
+
+<!-- Reaper -->
+<Item itemName="● Reaper" typeMenu="subMenu" icon="icon.dll:7">
+	<Item itemName="Edit Cursor (EC)" typeMenu="item" action_snippet="Edit Cursor (EC)" icon="icon.dll:7" />
+	<Item itemName="Time Selection (TS)" typeMenu="item" action_snippet="Time Selection (TS)" icon="icon.dll:7" />
+</Item>
+<!-- Reaper -->
+
+<!-- JavaScript -->
+<Item itemName="● JavaScript" typeMenu="subMenu" icon="icon.dll:7">
+	<Item itemName="Получить все ссылки с канала Instagram" typeMenu="item" action_snippet="JavaScript\Получить все ссылки с канала Instagram.txt" icon="icon.dll:7" />
+	<Item itemName="Получить дату каждой ссылки Instagram" typeMenu="item" action_snippet="JavaScript\Получить дату каждой ссылки Instagram.txt" icon="icon.dll:7" />
+</Item>
+<!-- JavaScript -->
+
+<!-- HTML -->
+<Item itemName="● HTML" typeMenu="subMenu" icon="icon.dll:7">
+	<Item itemName="Шаблон HTML5" typeMenu="item" action_snippet="Html\Шаблон HTML5.txt" icon="icon.dll:7" />
+	<Item itemName="Рыбный текст (50 слов)" typeMenu="item" action_snippet="Html\Рыбный текст (50 слов).txt" icon="icon.dll:7" />
+	<Item itemName="Рыбный текст (100 слов)" typeMenu="item" action_snippet="Html\Рыбный текст (100 слов).txt" icon="icon.dll:7" />
+	<Item itemName="Рыбный текст (150 слов)" typeMenu="item" action_snippet="Html\Рыбный текст (150 слов).txt" icon="icon.dll:7" />
+</Item>
+<!-- HTML -->
+
+<Item itemName="Orange Tree Samples - Evolution" typeMenu="item" action_snippet="Orange Tree Samples - Evolution.txt" icon="icon.dll:7" />
+</Item>
+
+
+
+
 
 <!-- Настройки -->
 <Item itemName="" typeMenu="separator" />
@@ -52,8 +121,10 @@
 	<!-- Редактировать меню -->
 	<Item itemName="● Редактировать меню" typeMenu="subMenu" icon="icon.dll:1">
 		<Item itemName="Главное Меню (XML)" typeMenu="item" action_folder_script="MenuMain.xml" icon="icon.dll:2" />
+		<Item itemName="Сниппеты (XML)" typeMenu="item" action_folder_script="MenuSnippets.xml" icon="icon.dll:2" />
 		<Item itemName="Папка меню" typeMenu="item" action_folder_script="\" icon="icon.dll:3" />
 		<Item itemName="snippets" typeMenu="item" action_folder_script="snippets" icon="icon.dll:3" />
+		<Item itemName="icon" typeMenu="item" action_folder_script="icon" icon="icon.dll:3" />
 	</Item>
 	<!-- Редактировать меню -->
 	
@@ -61,12 +132,52 @@
 	<Item itemName="● Windows" typeMenu="subMenu" icon="icon.dll:1">
 		<Item itemName="Мой компьютер" typeMenu="item" action_open_folder="%windir%\explorer.exe Shell:::{20D04FE0-3AEA-1069-A2D8-08002B30309D}" icon="icon.dll:1"/>
 		<Item itemName="Все задачи" typeMenu="item" action_open_folder="%windir%\explorer.exe shell:::{ED7BA470-8E54-465E-825C-99712043E01C}" icon="icon.dll:1"/>
+		<Item itemName="Все элементы панели управления" typeMenu="item" action_open_folder="%windir%\system32\control.exe" icon="icon.dll:1"/>
+		<Item itemName="Дата и время" typeMenu="item" action_open_folder="%windir%\System32\rundll32.exe shell32.dll,Control_RunDLL timedate.cpl" icon="icon.dll:1"/>
+		<Item itemName="Диспетчер устройств" typeMenu="item" action_open_folder="%windir%\explorer.exe shell:::{74246bfc-4c96-11d0-abef-0020af6b0b7a}" icon="icon.dll:1"/>
+		<Item itemName="Система" typeMenu="item" action_open_folder="%windir%\explorer.exe Shell:::{BB06C0E4-D293-4f75-8A90-CB05B6477EEE}" icon="icon.dll:1"/>
+		<Item itemName="Управление дисками" typeMenu="item" action_open_folder="%windir%\system32\diskmgmt.msc" icon="icon.dll:1"/>
+		<Item itemName="Сетевые подключения" typeMenu="item" action_open_folder="%windir%\explorer.exe Shell:::{7007ACC7-3202-11D1-AAD2-00805FC1270E}" icon="icon.dll:1"/>
 	</Item>
 	<!-- Windows -->
+	
+	<!-- Размер шрифта -->
+	<Item itemName="● Размер шрифта" typeMenu="subMenu" icon="icon.dll:1">
+		<Item itemName="Размер шрифта 8" typeMenu="item" action_font_size="8" icon="icon.dll:6" />
+		<Item itemName="Размер шрифта 9" typeMenu="item" action_font_size="9" icon="icon.dll:6" />
+		<Item itemName="Размер шрифта 10" typeMenu="item" action_font_size="10" icon="icon.dll:6" />
+		<Item itemName="Размер шрифта 11" typeMenu="item" action_font_size="11" icon="icon.dll:6" />
+		<Item itemName="Размер шрифта 12" typeMenu="item" action_font_size="12" icon="icon.dll:6" />
+		<Item itemName="Размер шрифта 13" typeMenu="item" action_font_size="13" icon="icon.dll:6" />
+		<Item itemName="Размер шрифта 14" typeMenu="item" action_font_size="14" icon="icon.dll:6" />
+		<Item itemName="Размер шрифта 15" typeMenu="item" action_font_size="15" icon="icon.dll:6" />
+		<Item itemName="Размер шрифта 16" typeMenu="item" action_font_size="16" icon="icon.dll:6" />
+		<Item itemName="Размер шрифта 17" typeMenu="item" action_font_size="17" icon="icon.dll:6" />
+		<Item itemName="Размер шрифта 18" typeMenu="item" action_font_size="18" icon="icon.dll:6" />
+	</Item>
+	<!-- Размер шрифта -->
+	
+	<!-- Размер иконок -->
+	<Item itemName="● Размер иконок" typeMenu="subMenu" icon="icon.dll:1">
+		<Item itemName="Размер иконок 16" typeMenu="item" action_icon_size="16" icon="icon.dll:6" />
+		<Item itemName="Размер иконок 18" typeMenu="item" action_icon_size="18" icon="icon.dll:6" />
+		<Item itemName="Размер иконок 20" typeMenu="item" action_icon_size="20" icon="icon.dll:6" />
+		<Item itemName="Размер иконок 22" typeMenu="item" action_icon_size="22" icon="icon.dll:6" />
+		<Item itemName="Размер иконок 24" typeMenu="item" action_icon_size="24" icon="icon.dll:6" />
+		<Item itemName="Размер иконок 28" typeMenu="item" action_icon_size="28" icon="icon.dll:6" />
+		<Item itemName="Размер иконок 30" typeMenu="item" action_icon_size="30" icon="icon.dll:6" />
+		<Item itemName="Размер иконок 32" typeMenu="item" action_icon_size="32" icon="icon.dll:6" />
+	</Item>
+	<!-- Размер иконок -->
+	
+
 	
 	<Item itemName="" typeMenu="separator" />
 	<Item itemName="Горячие клавиши" typeMenu="item" action_settings_ahk="ChangeHotkeyGui" icon="icon.dll:5" />
 	<Item itemName="Показать/скрыть иконку из трея" typeMenu="item" action_settings_ahk="IconShow" icon="icon.dll:6" />
+	<Item itemName="Очистить кэщ" typeMenu="item" action_settings_ahk="DeleteJson" icon="icon.dll:6" />
+	<Item itemName="Закрыть программу" typeMenu="item" action_settings_ahk="CloseProgram" icon="icon.dll:6" />
+	<Item itemName="Перезапустить программу" typeMenu="item" action_settings_ahk="RebootProgram" icon="icon.dll:6" />
 </Item>
 <!-- Настройки -->
 	
