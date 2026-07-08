@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Xml;
 using System.Windows.Forms;
+using System.IO;
 
 class MenuItem
 {
@@ -19,14 +20,35 @@ class MenuItem
 	public List<MenuItem> Children { get; set; } = new();
 }
 
+class AppSettings
+{
+	public string Hotkey { get; set; } = "Ctrl+Shift+Z";
+	public bool HideIcon { get; set; } = false;
+	public string CurrentMenu { get; set; } = "MenuMain.xml";
+	public string FolderIcon { get; set; } = "icons";
+	public string FolderSnippets { get; set; } = "snippets";
+	public bool AlwaysOnTop { get; set; } = false;
+}
+
 class Program
 {
+	
+	static string AppPath = AppDomain.CurrentDomain.BaseDirectory;
+	static string ConfigFile = Path.Combine(AppPath, "config.ini");
+	
 	static void Main()
 	{
 		ApplicationConfiguration.Initialize();
 
+		AppSettings settings = LoadSettings();
+
+		string menuFile = Path.Combine(
+			AppPath,
+			settings.CurrentMenu
+		);
+
 		XmlDocument doc = new XmlDocument();
-		doc.Load("MenuMain.xml");
+		doc.Load(menuFile);
 
 		List<MenuItem> menuItems = LoadMenu(doc.DocumentElement);
 
