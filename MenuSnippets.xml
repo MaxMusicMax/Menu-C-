@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menuPopup>
+
+<Item itemName="Сниппеты" typeMenu="item" action_name_menu="" icon="icon.dll:7" />
+<Item itemName="" typeMenu="separator" />
+
+<!-- Клиенты -->
+<!-- Символы -->
+<!-- Reaper -->
+<!-- ChatGPT -->
+<!-- JavaScript -->
+<!-- HTML -->
+<!-- Словари -->
+
+<!-- Настройки -->
+<!-- Выбрать меню -->
+<!-- Редактировать меню -->
+<!-- Windows -->
+
+<!-- Клиенты -->
+<Item itemName="● Клиенты" typeMenu="subMenu" icon="icon.dll:7">
+	<Item itemName="Мои координаты" typeMenu="item" action_snippet="Клиенты\Мои координаты.txt" icon="icon.dll:7" />
+	<Item itemName="Банк ВТБ" typeMenu="item" action_snippet="Клиенты\Банк ВТБ.txt" icon="icon.dll:7" />
+	<Item itemName="отправил музыку в телеграм" typeMenu="item" action_snippet="Клиенты\отправил музыку в телеграм.txt" icon="icon.dll:7" />
+	<Item itemName="Напишите тайминг" typeMenu="item" action_snippet="Клиенты\Напишите тайминг.txt" icon="icon.dll:7" />
+</Item>
+<!-- Клиенты -->
+
+<!-- Символы -->
+<Item itemName="● Символы" typeMenu="subMenu" icon="icon.dll:7">
+	<Item itemName="—" typeMenu="item" action_snippet="—" icon="icon.dll:7" />
+	<Item itemName="–" typeMenu="item" action_snippet="–" icon="icon.dll:7" />
+	<Item itemName="●" typeMenu="item" action_snippet="●" icon="icon.dll:7" />
+	<Item itemName="«»" typeMenu="item" action_snippet="«»" icon="icon.dll:7" />
+</Item>
+<!-- Символы -->
+
+<!-- Reaper -->
+<Item itemName="● Reaper" typeMenu="subMenu" icon="icon.dll:7">
+	<Item itemName="Что такое ReaScript Скрипт для Reaper на Lua" typeMenu="item" action_snippet="Что такое ReaScript Скрипт для Reaper на Lua" icon="icon.dll:7" />
+	<Item itemName="print_rs (www)" typeMenu="item" action_snippet="print_rs (www)" icon="icon.dll:7" />
+	<Item itemName="if false then" typeMenu="item" action_snippet="Reaper\if_false_then.txt" icon="icon.dll:7" />
+	<Item itemName="Edit Cursor (EC)" typeMenu="item" action_snippet="Edit Cursor (EC)" icon="icon.dll:7" />
+	<Item itemName="Time Selection (TS)" typeMenu="item" action_snippet="Time Selection (TS)" icon="icon.dll:7" />
+	<Item itemName="Main_OnCommand - NamedCommandLookup" typeMenu="item" action_snippet="Reaper\Main_OnCommand_NamedCommandLookup.txt" icon="icon.dll:7" />
+</Item>
+<!-- Reaper -->
+
+<!-- ChatGPT -->
+<Item itemName="● ChatGPT" typeMenu="subMenu" icon="icon.dll:7">
+	<Item itemName="ты пишешь очень много не нужной информации" typeMenu="item" action_snippet="ChatGPT\ты пишешь очень много не нужной информации.txt" icon="icon.dll:7" />
+</Item>
+<!-- ChatGPT -->
+
+<!-- JavaScript -->
+<Item itemName="● JavaScript" typeMenu="subMenu" icon="icon.dll:7">
+	<Item itemName="Получить все ссылки с канала Instagram" typeMenu="item" action_snippet="JavaScript\Получить все ссылки с канала Instagram.txt" icon="icon.dll:7" />
+	<Item itemName="Получить дату каждой ссылки Instagram" typeMenu="item" action_snippet="JavaScript\Получить дату каждой ссылки Instagram.txt" icon="icon.dll:7" />
+</Item>
+<!-- JavaScript -->
+
+<!-- HTML -->
+<Item itemName="● HTML" typeMenu="subMenu" icon="icon.dll:7">
+	<Item itemName="Шаблон HTML5" typeMenu="item" action_snippet="Html\Шаблон HTML5.txt" icon="icon.dll:7" />
+	<Item itemName="Рыбный текст (50 слов)" typeMenu="item" action_snippet="Html\Рыбный текст (50 слов).txt" icon="icon.dll:7" />
+	<Item itemName="Рыбный текст (100 слов)" typeMenu="item" action_snippet="Html\Рыбный текст (100 слов).txt" icon="icon.dll:7" />
+	<Item itemName="Рыбный текст (150 слов)" typeMenu="item" action_snippet="Html\Рыбный текст (150 слов).txt" icon="icon.dll:7" />
+</Item>
+<!-- HTML -->
+
+<!-- Словари -->
+<Item itemName="● Словари" typeMenu="subMenu" icon="icon.dll:7">
+	<Item itemName="5000_words" typeMenu="item" action_snippet="Словари\5000_words.txt" icon="icon.dll:7" />
+	<Item itemName="slova_8000" typeMenu="item" action_snippet="Словари\slova_8000.txt" icon="icon.dll:7" />
+	<Item itemName="Английский - Русский" typeMenu="item" action_snippet="Словари\Английский - Русский.txt" icon="icon.dll:7" />
+	<Item itemName="Глаголы (10959 - одна строка)" typeMenu="item" action_snippet="Словари\Глаголы (10959 - одна строка).txt" icon="icon.dll:7" />
+	<Item itemName="Глаголы (10959)" typeMenu="item" action_snippet="Словари\Глаголы (10959).txt" icon="icon.dll:7" />
+	<Item itemName="Города (345)" typeMenu="item" action_snippet="Словари\Города (345).txt" icon="icon.dll:7" />
+	<Item itemName="Имена (1988)" typeMenu="item" action_snippet="Словари\Имена (1988).txt" icon="icon.dll:7" />
+	<Item itemName="Названия месяцев" typeMenu="item" action_snippet="Словари\Названия месяцев.txt" icon="icon.dll:7" />
+	<Item itemName="Наречия (1510 - одна строка)" typeMenu="item" action_snippet="Словари\Наречия (1510 - одна строка).txt" icon="icon.dll:7" />
+	<Item itemName="Наречия (1510)" typeMenu="item" action_snippet="Словари\Наречия (1510).txt" icon="icon.dll:7" />
+	<Item itemName="Настроение и эмоции (836)" typeMenu="item" action_snippet="Словари\Настроение и эмоции (836).txt" icon="icon.dll:7" />
+	<Item itemName="Прилагательные (6510 - одна строка)" typeMenu="item" action_snippet="Словари\Прилагательные (6510 - одна строка).txt" icon="icon.dll:7" />
+	<Item itemName="Прилагательные (6510)" typeMenu="item" action_snippet="Словари\Прилагательные (6510).txt" icon="icon.dll:7" />
+	<Item itemName="Словарь устаревших слов" typeMenu="item" action_snippet="Словари\Словарь устаревших слов.txt" icon="icon.dll:7" />
+	<Item itemName="Старинные ругательства Древней Руси" typeMenu="item" action_snippet="Словари\Старинные ругательства Древней Руси.txt" icon="icon.dll:7" />
+	<Item itemName="Столицы мира (173)" typeMenu="item" action_snippet="Словари\Столицы мира (173).txt" icon="icon.dll:7" />
+	<Item itemName="Страны (167)" typeMenu="item" action_snippet="Словари\Страны (167).txt" icon="icon.dll:7" />
+	<Item itemName="Существительные (39891 - одна строка)" typeMenu="item" action_snippet="Словари\Существительные (39891 - одна строка).txt" icon="icon.dll:7" />
+	<Item itemName="Существительные (39891)" typeMenu="item" action_snippet="Словари\Существительные (39891).txt" icon="icon.dll:7" />
+	<Item itemName="Часто употребляемых слова (4422)" typeMenu="item" action_snippet="Словари\Часто употребляемых слова (4422).txt" icon="icon.dll:7" />
+</Item>
+<!-- Словари -->
+
+<Item itemName="Orange Tree Samples - Evolution" typeMenu="item" action_snippet="Orange Tree Samples - Evolution.txt" icon="icon.dll:7" />
+<Item itemName="Фильмы от ИИ" typeMenu="item" action_snippet="Фильмы от ИИ.txt" icon="icon.dll:7" />
+<Item itemName="dotnet run" typeMenu="item" action_snippet="dotnet run.txt" icon="icon.dll:7" />
+
+
+<!-- Настройки -->
+<Item itemName="" typeMenu="separator" />
+<Item itemName="● Настройки" typeMenu="subMenu" icon="icon.dll:1">
+	
+	<!-- Выбрать меню -->
+	<Item itemName="● Выбрать меню" typeMenu="subMenu" icon="icon.dll:1">
+		<Item itemName="Главное Меню" typeMenu="item" action_script_switch="MenuMain.xml" icon="icon.dll:2" />
+		<Item itemName="Сниппеты" typeMenu="item" action_script_switch="MenuSnippets.xml" icon="icon.dll:2" />
+	</Item>
+	<!-- Выбрать меню -->
+	
+	<!-- Редактировать меню -->
+	<Item itemName="● Редактировать меню" typeMenu="subMenu" icon="icon.dll:1">
+		<Item itemName="Главное Меню (XML)" typeMenu="item" action_folder_script="MenuMain.xml" icon="icon.dll:2" />
+		<Item itemName="Сниппеты (XML)" typeMenu="item" action_folder_script="MenuSnippets.xml" icon="icon.dll:2" />
+		<Item itemName="Папка меню" typeMenu="item" action_folder_script="\" icon="icon.dll:3" />
+		<Item itemName="snippets" typeMenu="item" action_folder_script="snippets" icon="icon.dll:3" />
+		<Item itemName="icon" typeMenu="item" action_folder_script="icon" icon="icon.dll:3" />
+	</Item>
+	<!-- Редактировать меню -->
+	
+	<!-- Windows -->
+	<Item itemName="● Windows" typeMenu="subMenu" icon="icon.dll:1">
+		<Item itemName="Мой компьютер" typeMenu="item" action_open_folder="%windir%\explorer.exe Shell:::{20D04FE0-3AEA-1069-A2D8-08002B30309D}" icon="icon.dll:1"/>
+		<Item itemName="Все задачи" typeMenu="item" action_open_folder="%windir%\explorer.exe shell:::{ED7BA470-8E54-465E-825C-99712043E01C}" icon="icon.dll:1"/>
+		<Item itemName="Все элементы панели управления" typeMenu="item" action_open_folder="%windir%\system32\control.exe" icon="icon.dll:1"/>
+		<Item itemName="Дата и время" typeMenu="item" action_open_folder="%windir%\System32\rundll32.exe shell32.dll,Control_RunDLL timedate.cpl" icon="icon.dll:1"/>
+		<Item itemName="Диспетчер устройств" typeMenu="item" action_open_folder="%windir%\explorer.exe shell:::{74246bfc-4c96-11d0-abef-0020af6b0b7a}" icon="icon.dll:1"/>
+		<Item itemName="Система" typeMenu="item" action_open_folder="%windir%\explorer.exe Shell:::{BB06C0E4-D293-4f75-8A90-CB05B6477EEE}" icon="icon.dll:1"/>
+		<Item itemName="Управление дисками" typeMenu="item" action_open_folder="%windir%\system32\diskmgmt.msc" icon="icon.dll:1"/>
+		<Item itemName="Сетевые подключения" typeMenu="item" action_open_folder="%windir%\explorer.exe Shell:::{7007ACC7-3202-11D1-AAD2-00805FC1270E}" icon="icon.dll:1"/>
+	</Item>
+	<!-- Windows -->
+	
+	<Item itemName="" typeMenu="separator" />
+	<Item itemName="Горячие клавиши" typeMenu="item" action_settings_ahk="ChangeHotkeyGui" icon="icon.dll:5" />
+	<Item itemName="Показать/скрыть иконку из трея" typeMenu="item" action_settings_ahk="IconShow" icon="icon.dll:6" />
+</Item>
+<!-- Настройки -->
+	
+</menuPopup>
