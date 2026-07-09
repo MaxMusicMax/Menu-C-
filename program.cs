@@ -71,10 +71,11 @@ class Program
 
 	static NotifyIcon tray = null!;
 	static ContextMenuStrip menu = null!;
+	static Icon? trayIcon;
 	static ChangeHotkeyForm? hotkeyForm;
 	static List<MenuItem> menuItems = new();
 
-	static string AppPath = Directory.GetParent(AppDomain.CurrentDomain.BaseDirectory)!.Parent!.Parent!.Parent!.FullName;
+	static string AppPath = AppDomain.CurrentDomain.BaseDirectory.TrimEnd('\\');
 	static string ConfigFile = Path.Combine(AppPath, "config.ini");
 
 	class MyContextMenuStrip : ContextMenuStrip
@@ -106,6 +107,7 @@ class Program
 	[STAThread]
 	static void Main()
 	{
+
 		ApplicationConfiguration.Initialize();
 
 		AppSettings settings = LoadSettings();
@@ -145,7 +147,29 @@ class Program
 		BuildMenu(menu.Items, menuItems);
 
 		tray = new NotifyIcon();
-		tray.Icon = System.Drawing.SystemIcons.Application;
+		
+		string iconFile = Path.Combine(
+			AppPath,
+			"CS.ico"
+		);
+
+		if (File.Exists(iconFile))
+		{
+			using (Icon tempIcon = new Icon(iconFile))
+			{
+				trayIcon = new Icon(
+					tempIcon,
+					new Size(32, 32)
+				);
+			}
+
+			tray.Icon = trayIcon;
+		}
+		else
+		{
+			tray.Icon = System.Drawing.SystemIcons.Application;
+		}
+
 		tray.ContextMenuStrip = menu;
 		tray.Visible = !settings.HideIcon;
 
@@ -157,6 +181,7 @@ class Program
 		);
 
 		Application.Run();
+
 	}
 
 	static List<MenuItem> LoadMenuCache(string menuName)
@@ -350,7 +375,6 @@ class Program
 		{
 			item.ImageScaling =
 				ToolStripItemImageScaling.SizeToFit;
-
 
 			if (item is ToolStripMenuItem menuItem)
 			{
@@ -839,9 +863,7 @@ IconSize={settings.IconSize}
 			Height = 150;
 			StartPosition = FormStartPosition.CenterScreen;
 
-
 			AppSettings settings = LoadSettings();
-
 
 			Label label = new Label();
 			label.Text = "Новая комбинация:";
@@ -849,14 +871,12 @@ IconSize={settings.IconSize}
 			label.Top = 15;
 			label.Width = 200;
 
-
 			box = new TextBox();
 			box.Left = 10;
 			box.Top = 40;
 			box.Width = 250;
 			box.Text = settings.Hotkey;
 			box.ReadOnly = true;
-
 
 			box.KeyDown += (s, e) =>
 			{
@@ -887,13 +907,11 @@ IconSize={settings.IconSize}
 				box.Text = string.Join("+", keys);
 			};
 
-
 			save = new Button();
 			save.Text = "Сохранить";
 			save.Left = 10;
 			save.Top = 75;
 			save.Width = 100;
-
 
 			save.Click += (s, e) =>
 			{
@@ -908,7 +926,6 @@ IconSize={settings.IconSize}
 					HOTKEY_ID
 				);
 
-
 				RegisterHotKey(
 					ProgramMessageWindow.Handle,
 					HOTKEY_ID,
@@ -919,7 +936,6 @@ IconSize={settings.IconSize}
 
 				Close();
 			};
-
 
 			Controls.Add(label);
 			Controls.Add(box);

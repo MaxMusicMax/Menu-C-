@@ -8,9 +8,8 @@
     <UseWindowsForms>true</UseWindowsForms>
     <ApplicationIcon>CS.ico</ApplicationIcon>
     <PublishSingleFile>true</PublishSingleFile>
-    <SelfContained>true</SelfContained>
+    <SelfContained>false</SelfContained>
     <RuntimeIdentifier>win-x64</RuntimeIdentifier>
   </PropertyGroup>
 
 </Project>
-
