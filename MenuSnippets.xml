@@ -16,6 +16,8 @@
 <!-- Выбрать меню -->
 <!-- Редактировать меню -->
 <!-- Windows -->
+<!-- Размер шрифта -->
+<!-- Размер иконок -->
 
 <!-- Клиенты -->
 <Item itemName="● Клиенты" typeMenu="subMenu" icon="icon.dll:7">
@@ -111,8 +113,8 @@
 	
 	<!-- Выбрать меню -->
 	<Item itemName="● Выбрать меню" typeMenu="subMenu" icon="icon.dll:1">
-		<Item itemName="Главное Меню" typeMenu="item" action_script_switch="MenuMain.xml" icon="icon.dll:2" />
-		<Item itemName="Сниппеты" typeMenu="item" action_script_switch="MenuSnippets.xml" icon="icon.dll:2" />
+		<Item itemName="Главное Меню" typeMenu="item" action_script_switch="MenuMain.xml" icon="icon.dll:1" />
+		<Item itemName="Сниппеты" typeMenu="item" action_script_switch="MenuSnippets.xml" icon="icon.dll:1" />
 	</Item>
 	<!-- Выбрать меню -->
 	
@@ -141,26 +143,39 @@
 	
 	<!-- Размер шрифта -->
 	<Item itemName="● Размер шрифта" typeMenu="subMenu" icon="icon.dll:1">
-		<Item itemName="Размер шрифта 8" typeMenu="item" action_font_size="8" icon="icon.dll:6" />
-		<Item itemName="Размер шрифта 9" typeMenu="item" action_font_size="9" icon="icon.dll:6" />
-		<Item itemName="Размер шрифта 10" typeMenu="item" action_font_size="10" icon="icon.dll:6" />
-		<Item itemName="Размер шрифта 11" typeMenu="item" action_font_size="11" icon="icon.dll:6" />
-		<Item itemName="Размер шрифта 12" typeMenu="item" action_font_size="12" icon="icon.dll:6" />
-		<Item itemName="Размер шрифта 13" typeMenu="item" action_font_size="13" icon="icon.dll:6" />
-		<Item itemName="Размер шрифта 14" typeMenu="item" action_font_size="14" icon="icon.dll:6" />
-		<Item itemName="Размер шрифта 15" typeMenu="item" action_font_size="15" icon="icon.dll:6" />
-		<Item itemName="Размер шрифта 16" typeMenu="item" action_font_size="16" icon="icon.dll:6" />
-		<Item itemName="Размер шрифта 17" typeMenu="item" action_font_size="17" icon="icon.dll:6" />
-		<Item itemName="Размер шрифта 18" typeMenu="item" action_font_size="18" icon="icon.dll:6" />
+		<Item itemName="Размер шрифта 8" typeMenu="item" action_font_size="8" icon="icon.dll:1" />
+		<Item itemName="Размер шрифта 9" typeMenu="item" action_font_size="9" icon="icon.dll:1" />
+		<Item itemName="Размер шрифта 10" typeMenu="item" action_font_size="10" icon="icon.dll:1" />
+		<Item itemName="Размер шрифта 11" typeMenu="item" action_font_size="11" icon="icon.dll:1" />
+		<Item itemName="Размер шрифта 12" typeMenu="item" action_font_size="12" icon="icon.dll:1" />
+		<Item itemName="Размер шрифта 13" typeMenu="item" action_font_size="13" icon="icon.dll:1" />
+		<Item itemName="Размер шрифта 14" typeMenu="item" action_font_size="14" icon="icon.dll:1" />
+		<Item itemName="Размер шрифта 15" typeMenu="item" action_font_size="15" icon="icon.dll:1" />
+		<Item itemName="Размер шрифта 16" typeMenu="item" action_font_size="16" icon="icon.dll:1" />
+		<Item itemName="Размер шрифта 17" typeMenu="item" action_font_size="17" icon="icon.dll:1" />
+		<Item itemName="Размер шрифта 18" typeMenu="item" action_font_size="18" icon="icon.dll:1" />
 	</Item>
 	<!-- Размер шрифта -->
+	
+	<!-- Размер иконок -->
+	<Item itemName="● Размер иконок" typeMenu="subMenu" icon="icon.dll:1">
+		<Item itemName="Размер иконок 16" typeMenu="item" action_icon_size="16" icon="icon.dll:1" />
+		<Item itemName="Размер иконок 18" typeMenu="item" action_icon_size="18" icon="icon.dll:1" />
+		<Item itemName="Размер иконок 20" typeMenu="item" action_icon_size="20" icon="icon.dll:1" />
+		<Item itemName="Размер иконок 22" typeMenu="item" action_icon_size="22" icon="icon.dll:1" />
+		<Item itemName="Размер иконок 24" typeMenu="item" action_icon_size="24" icon="icon.dll:1" />
+		<Item itemName="Размер иконок 28" typeMenu="item" action_icon_size="28" icon="icon.dll:1" />
+		<Item itemName="Размер иконок 30" typeMenu="item" action_icon_size="30" icon="icon.dll:1" />
+		<Item itemName="Размер иконок 32" typeMenu="item" action_icon_size="32" icon="icon.dll:1" />
+	</Item>
+	<!-- Размер иконок -->
 	
 	<Item itemName="" typeMenu="separator" />
 	<Item itemName="Горячие клавиши" typeMenu="item" action_settings_ahk="ChangeHotkeyGui" icon="icon.dll:5" />
 	<Item itemName="Показать/скрыть иконку из трея" typeMenu="item" action_settings_ahk="IconShow" icon="icon.dll:6" />
-	<Item itemName="Очистить кэщ" typeMenu="item" action_settings_ahk="DeleteJson" icon="icon.dll:6" />
-	<Item itemName="Закрыть программу" typeMenu="item" action_settings_ahk="CloseProgram" icon="icon.dll:6" />
-	<Item itemName="Перезапустить программу" typeMenu="item" action_settings_ahk="RebootProgram" icon="icon.dll:6" />
+	<Item itemName="Очистить кэщ" typeMenu="item" action_settings_ahk="DeleteJson" icon="icon.dll:1" />
+	<Item itemName="Закрыть программу" typeMenu="item" action_settings_ahk="CloseProgram" icon="icon.dll:1" />
+	<Item itemName="Перезапустить программу" typeMenu="item" action_settings_ahk="RebootProgram" icon="icon.dll:1" />" icon="icon.dll:6" />
 </Item>
 <!-- Настройки -->
 	

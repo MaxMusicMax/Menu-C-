@@ -27,7 +27,7 @@ class MenuItem
 
 class AppSettings
 {
-	public string Hotkey { get; set; } = "Ctrl+Shift+Z";
+	public string Hotkey { get; set; } = "Ctrl+Shift+X";
 	public bool HideIcon { get; set; } = false;
 	public string CurrentMenu { get; set; } = "MenuMain.xml";
 	public string FolderIcon { get; set; } = "icons";
